@@ -4,15 +4,14 @@
     "appVersionSource": "remote"
   },
   "build": {
-    "preview": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "NPM_CONFIG_PRODUCTION": "false"
+      "distribution": "internal"
     },
     "preview": {
       "distribution": "internal",
-      "packageManager": "npm"
-    }
+      "packsgeManager": "npm"
+    },
+    "production": {}
+  }
 }
