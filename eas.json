@@ -16,4 +16,5 @@
       "packageManager": "npm"
     },
     "production": {}
-    }
+  }
+}
